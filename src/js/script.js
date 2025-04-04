@@ -87,3 +87,5 @@ console.log(num3 < num4 || num4 < num3);
 
 console.log(num3 == num4); // (float 30 == int 30 -> True)
 console.log(num3 === num4); //aqui o tipo e o valor tem que ser iguais (int 30 === int 30 -> True)
+console.log(num3 != num4); // float 30 != float 20 -> True
+console.log(!(num3 == num4)); //(20 == 30) -> False, porém com o !, ele inverte, então -> True
