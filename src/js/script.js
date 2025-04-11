@@ -137,3 +137,21 @@ switch (torre){
 //? -> True (if)
 //: -> False (else)
 let eae = 1 == 1 ? "Salve" : "oi"
+
+
+//ESTRUTURA DE REPETIÇÃO
+for (let index = 0; index < 10; index++) {
+    print(i);
+}
+
+let c = 0
+while(c < 10){
+    print(c)
+    c++
+}
+
+let f = 0
+do{ //Ele executa de primeira e depois verifica o while
+    print(f)
+    f++
+}while(f < 0)
