@@ -89,3 +89,51 @@ console.log(num3 == num4); // (float 30 == int 30 -> True)
 console.log(num3 === num4); //aqui o tipo e o valor tem que ser iguais (int 30 === int 30 -> True)
 console.log(num3 != num4); // float 30 != float 20 -> True
 console.log(!(num3 == num4)); //(20 == 30) -> False, porém com o !, ele inverte, então -> True
+
+//CONDICIONAL
+if(true){
+    console.log("é verdadeiro")
+}
+
+let valor = 1
+if (valor == 1){
+    console.log(valor)
+}
+
+let nome = "peralta"
+if (nome == "peralta"){
+    print("Peralta")
+}else{
+    print("Não é o peralta")
+}
+
+let idade2 = 18
+if(idade2 > 18){
+    console.log(idade2)
+}else if(idade2 == 18){
+    console.log(idade2)
+}else{
+    console.log(idade2)
+}
+
+//Switch case
+let torre = "macaco dardo"
+switch (torre){
+    case "macaco dardo":
+        print("jamanta")
+        break
+    case "quincy":
+        print("muito ruim")
+        break
+    case "sauda":
+        print("boa")
+        break
+    default:
+        print("na duvida, sniper")
+}
+    
+
+//ternario
+//? -> True (if)
+//: -> False (else)
+let eae = 1 == 1 ? "Salve" : "oi"
