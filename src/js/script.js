@@ -102,9 +102,9 @@ if (valor == 1){
 
 let nome = "peralta"
 if (nome == "peralta"){
-    print("Peralta")
+    console.log("Peralta")
 }else{
-    print("Não é o peralta")
+    console.log("Não é o peralta")
 }
 
 let idade2 = 18
@@ -120,16 +120,17 @@ if(idade2 > 18){
 let torre = "macaco dardo"
 switch (torre){
     case "macaco dardo":
-        print("jamanta")
+        console.log("jamanta")
         break
     case "quincy":
-        print("muito ruim")
+        console.log("muito ruim")
         break
     case "sauda":
-        print("boa")
+        console.log("boa")
         break
     default:
-        print("na duvida, sniper")
+        console.log("na duvida, sniper")
+        break
 }
     
 
@@ -141,17 +142,25 @@ let eae = 1 == 1 ? "Salve" : "oi"
 
 //ESTRUTURA DE REPETIÇÃO
 for (let index = 0; index < 10; index++) {
-    print(i);
+    console.log(i);
 }
 
 let c = 0
 while(c < 10){
-    print(c)
+    console.log(c)
     c++
 }
 
 let f = 0
 do{ //Ele executa de primeira e depois verifica o while
-    print(f)
+    console.log(f)
     f++
 }while(f < 0)
+
+
+    //Função
+function salve(a){
+    console.log("Salve")
+    console.log("a")
+}
+salve("Peralta")
